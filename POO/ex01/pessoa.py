@@ -43,3 +43,6 @@ class Pessoa:
             return
         print(f'{self.nome} parou de comer.')
         self.comendo = False
+        
+        
+        
