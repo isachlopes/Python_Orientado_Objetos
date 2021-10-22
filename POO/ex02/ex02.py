@@ -16,6 +16,7 @@ class Pessoa:
     def por_ano_nasc(cls, nome, nasc):
         idade = cls.atual - nasc
         return cls(nome, idade)
+        
 #p1 = Pessoa.por_ano_nasc('Ana', 1999)
 p1 = Pessoa('Luiz', 32)
 print(p1)
